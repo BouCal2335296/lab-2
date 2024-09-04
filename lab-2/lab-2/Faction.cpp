@@ -15,3 +15,23 @@ string Faction::GetNom()
 {
 	return nom;
 }
+
+int Faction::GetAtt() 
+{
+	return attaque;
+}
+
+int Faction::GetDef() 
+{
+	return defense;
+}
+
+int Faction::GetVie() 
+{
+	return vie;
+}
+
+int Faction::GetCapacite() 
+{
+	return capacite;
+}
