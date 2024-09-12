@@ -16,13 +16,6 @@ int main()
 {
 	Factory factory = Factory();
 
-	/*Transport transport = Transport("Vaisseau Transport", alien);
-	Guerre guerre = Guerre("Vaisseau Guerre", alien);
-	Livraison livraison = Livraison("Vaisseau Livraison", alien);
-
-	Transport transport1 = Transport("transport", predator);
-	Guerre guerre1 = Guerre("guerre", predator);
-	Livraison livraison1 = Livraison("livraison", predator);*/
 	srand(time(NULL));
 	cout << "... production d'un vaisseau";
 	Vaisseau* vaisseau1 = factory.getRandomVaisseau();

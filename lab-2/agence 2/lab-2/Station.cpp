@@ -1,6 +1,12 @@
 #include "Station.h"
 #include "Factory.h"
 
+Station::Station() {}
+Station::~Station() {}
+
+/// <summary>
+/// Créer trois vaisseau de base 
+/// </summary>
 void Station::init() 
 {
 	for (int i = 0; i < 3; i++) 
@@ -13,6 +19,7 @@ std::vector<Vaisseau*> Station::getVaisseauDispo()
 {
 	for (Vaisseau* vaisseau : vecVaisseau)
 		cout << vaisseau->to_string();
+	return vecVaisseau;
 }
 
 void Station::AjouterVaisseau(Vaisseau* vaisseau) 

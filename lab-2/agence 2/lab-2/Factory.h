@@ -13,6 +13,8 @@ using std::string;
 class Factory
 {
 	public:
+		Factory();
+		~Factory();
 		static Vaisseau* getRandomVaisseau();
 
 	private:

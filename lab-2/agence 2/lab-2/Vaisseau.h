@@ -21,7 +21,7 @@ class Vaisseau
 		string nom;
 		int niveau;
 		int exp;
-		Faction faction;
+		Faction* faction;
 
 	public:
 		Vaisseau();

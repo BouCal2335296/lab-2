@@ -13,6 +13,9 @@ enum ChoixFaction
 	PREDATOR
 };
 
+Factory::Factory() {}
+Factory::~Factory() {}
+
 Vaisseau* Factory::getRandomVaisseau() 
 {
 	Vaisseau* vaisseau = nullptr;
